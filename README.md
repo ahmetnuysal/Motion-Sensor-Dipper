@@ -20,15 +20,15 @@
 - int rs = 11, en = 10, d4 = 8, d5 = 4, d6 = 1, d7 = 0; 
 - LiquidCrystal lcd(rs, en, d4, d5, d6, d7); 
 - void setup() {
-  -servo1.attach(3);
-  -servo2.attach(5);
-  -servo3.attach(6);
-  -servo4.attach(9);
-  -pinMode(trigpin, OUTPUT); 
-  -pinMode(echopin, INPUT); 
-  -pinMode(trigpin2, OUTPUT); 
-  -pinMode(echopin2, INPUT); 
-  -lcd.begin(16, 2); }
+  - servo1.attach(3);
+  - servo2.attach(5);
+  - servo3.attach(6);
+  - servo4.attach(9);
+  - pinMode(trigpin, OUTPUT); 
+  - pinMode(echopin, INPUT); 
+  - pinMode(trigpin2, OUTPUT); 
+  - pinMode(echopin2, INPUT); 
+  - lcd.begin(16, 2); }
 - void loop() {
   - {
   - joyVal = analogRead(joyX);
