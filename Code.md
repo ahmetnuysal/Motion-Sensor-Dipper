@@ -1,4 +1,6 @@
 # Motion-Sensor-Dipper
+---
+```c++
 - #include  <LiquidCrystal.h> 
 - #include <Servo.h>
 - Servo servo1;
@@ -66,3 +68,4 @@
 - lcd.clear();
 - delay(500);}
 - }
+```
