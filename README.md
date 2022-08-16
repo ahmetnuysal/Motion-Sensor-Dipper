@@ -1,1 +1,1 @@
-# Ardunio ile yapılmış hareket sensörlü kepçe projesi
+# Ardunio ile Yapılmış Hareket Sensörlü Kepçe Projesi
